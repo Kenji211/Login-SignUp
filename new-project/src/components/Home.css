@@ -1,0 +1,49 @@
+.homepage {
+    height: 100vh;
+    width: 100vw;
+    background: url('./public/assetss/welcomebg.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-wrapper {
+    position: relative;
+    width: 700px;
+    height: 450px;
+    background: rgba(57, 57, 57, 0.534);
+    border-radius: 10px;
+    display: flex;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
+}
+
+.homepage .logout{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    
+}
+
+.home-wrapper .floating-data{
+    width: 100%;
+    padding: 40px;
+    margin: 10px;
+}
+
+div h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+div .details{
+    margin-top: 15px;
+    font-size: 20px;
+}
